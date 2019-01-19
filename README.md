@@ -4,4 +4,4 @@ This is a cherrypy webserver which allows a script to query a database and perfo
 
 To run properly this script requires a database containing private information.
 
-The information provided is for review only.
+These files are provided for review only.
