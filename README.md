@@ -6,6 +6,8 @@ To run properly this script requires a database containing proprietary informati
 
 These files are provided for review only.
 
+All original art.
+
 ## Screenshots of Usage
 
 ### Landing Page
