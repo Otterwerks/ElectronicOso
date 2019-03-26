@@ -2,7 +2,7 @@
 
 ## Summary
 
-This is a cherrypy webserver which allows a script to query a database and perform data processing on the results based on user input. Production scale surfactant batches that do not meet Quality release specifications may need additional chemical additions (adjustments) in order to meet spec. E-Oso is designed to take current batch specifications and suggest adjustments based on a database of previous adjustments on a per product basis. Regular expressions are instrumental in this script as the database being queried was not built with any standardized input format. The main script was originally a command line utility and was adapted into a web interface upon a colleague's request.
+This is a cherrypy webserver which allows a script to query a database and perform data processing on the results based on user input. Production scale surfactant batches that do not meet Quality release specifications may need additional chemical additions (adjustments) in order to meet spec. E-Oso is designed to take current batch specifications and suggest adjustments based on a database of previous adjustments on a per product basis. Regular expressions are instrumental in this script as the database being queried was not built with any standardized input format. All data processing is performed in Python with only a single main SQL query to pull information from the database. The main script was originally a command line utility and was adapted into a web interface upon a colleague's request.
 
 To run properly this script requires a database containing proprietary information.
 
